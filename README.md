@@ -24,7 +24,7 @@
 | **Features** | Scan & Pay, UPI, Loan EMI, Smart FD, Analytics | पैसे भेजें, FD खोलें, फसल बीमा, स्वास्थ्य बीमा |
 
 The ML model scores 9 signals from transaction data — `pension_signal` (weight ×3.5), `digital_ratio` (×2.8), `utility_ratio` (×2.4) and more — to predict which dashboard fits the user. Confidence ≥68% routes automatically. New users with no history get a 2-question setup instead.
-ML model notebook: [ml/model_training.ipynb](ml/notebook.ipynb)
+ML model notebook: [ML/model_training.ipynb](ML/model_training.ipynb)
 
 ---
 
