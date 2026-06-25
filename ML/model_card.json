@@ -1,0 +1,29 @@
+{
+  "model_id": "yono-segment-classifier-v1",
+  "test_accuracy": 0.998667,
+  "test_roc_auc": 0.999991,
+  "nextgen_weights": {
+    "digital_ratio": 2.8,
+    "entertain_ratio": 1.2,
+    "category_div": 0.9,
+    "credit_norm": 0.8,
+    "avg_txn_norm": 0.8
+  },
+  "ease_weights": {
+    "pension_signal": 3.5,
+    "utility_ratio": 1.1,
+    "has_fds": 1.0,
+    "balance_ratio": 2.2
+  },
+  "feature_importances": {
+    "digital_ratio": 0.72074,
+    "entertain_ratio": 0.136762,
+    "pension_signal": 0.075755,
+    "balance_ratio": 0.036808,
+    "category_div": 0.023892,
+    "credit_norm": 0.003784,
+    "utility_ratio": 0.002069,
+    "avg_txn_norm": 0.000168,
+    "has_fds": 2.2e-05
+  }
+}
